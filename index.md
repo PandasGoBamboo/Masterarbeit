@@ -30,7 +30,12 @@ Um bessere Ergebnisse erzielen zu können, müssen mehr Daten für die jeweilige
 
 ### Weitere Informationen
 
-Diese Webseite ist Teil der Masterarbeit: **Grundprimitive der Kategorisierung von Textdaten** - _Methodenvergleich am Beispiel von ZDF-Daten_. Eingereicht am Fachbereich 07 Geschichts- und Kulturwissenschaften der Johannes Gutenberg-Universität Mainz im Dezember 2020 von Timo Schumacher. 
+Diese Webseite ist Teil der Masterarbeit: **Grundprimitive der Kategorisierung von Textdaten** - _Methodenvergleich am Beispiel von ZDF-Daten_. Eingereicht am Fachbereich 07 Geschichts- und Kulturwissenschaften der Johannes Gutenberg-Universität Mainz im Dezember 2020.
+
+Prüfling: Timo Schumacher
+
 Erstprüfer: Dr. Marco Büchler
+
 Zweiprüfer: Prof. Dr. Gerhard Lauer
-[Link zum Poster](poster.pdf "Poster")
+
+[Poster zur Masterarbeit](poster.pdf "Poster")
