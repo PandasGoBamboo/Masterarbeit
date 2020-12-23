@@ -6,7 +6,7 @@ Die Ergebnisse zeigen, dass die Logistische Regression mit der TF-IDF Enkodierun
 
 ### Daten
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Die ZDF-Mediathek ist in mehrere größerer Rubriken mit vielen Unterkategorien, Sedungsreihen und Einzelsendungen aufteilt. Für den Vergleich der verschiedenen Klassifikatoren werden nur Sendungen der Rubrik _Dokumentation_ verwendet. Diese sind unter ```www.zdf.de/dokumentation/``` erreichbar.
 
 ```markdown
 Syntax highlighted code block
