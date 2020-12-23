@@ -10,7 +10,7 @@ Die ZDF-Mediathek ist in mehrere größerer Rubriken mit vielen Unterkategorien,
 
 ### Klassifikationsprozess
 
-![Diagramm](da.png "Diagram").
+![Diagramm](test.png "Diagram").
 
 
 
