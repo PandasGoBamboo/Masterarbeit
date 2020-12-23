@@ -1,5 +1,3 @@
-Diese Webseite ist Teil der Masterarbeit: **Grundprimitive der Kategorisierung von Textdaten** - _Methodenvergleich am Beispiel von ZDF-Daten_. Eingereicht am Fachbereich 07 Geschichts- und Kulturwissenschaften der Johannes Gutenberg-Universität Mainz im Dezember 2020 von Timo Schumacher
-
 ## Abstract
 
 In dieser Arbeit werden drei grundprimitive Algorithmen zur Kategorisierung von Textdaten auf Inhalte der ZDF-Mediathek angewendet und verglichen. Unter anderem wird die Klassifikationsleistung vom Naiven Bayes Algorithmus (NB), der Logistischen Regression (LOG) und von Support Vektor Maschinenen (SVM) evaluiert. Dabei werden außerdem verschiedenene Vorprozessierungsschritte und Vektorisierungsmethoden getest. Neben dem Einfluss von Stoppwortlisten, der Stammformreduktion oder der Lemmatisierung werden als Vektorisierungsmethoden die Termfrequenz, die One-Hot Enkodierung und das TF-IDF-Maß erklärt und verglichen. Dazu werden Metadaten der Kategorie Dokumentation aus der Contentschnittstelle des ZDFs geladen. Diese unterteilt sich in diverse Sendungsreihen, die wiederum aus mehreren Rubriken und Sendungen bestehen. Die in den Metadaten enthaltenen textuellen Feature dienen als Grundlage, für den Kategorisierungsprozess.
@@ -30,9 +28,8 @@ Entgegen dem allgemein Konsens, liefert das TF-IDF-Maß als Vektorisierungsmetho
 Großen Einfluss hat letztlich die Datengrundlage. Für viele Klassen scheinen nicht genug Daten vorhanden zu sein. Die trainierten Modelle passen sich zwar gut an die Daten an, da für die meisten Klassen akzeptable Werte bei der Precision erzielt werden. Dafür verfehlen sie für viele Klassen ungesehene Daten richtig zu kategorisieren. Das wird an den Werten für den Recall deutlich.
 Um bessere Ergebnisse erzielen zu können, müssen mehr Daten für die jeweiligen Klassen vorhanden sein. Dann empfehlen sich vor allem die Logistische Regression und die Support Vektor Maschine als Klassifikator. Anders als der Naiven Bayes nutzen diese beiden Klassifikatoren automatisch optimierte Gewichtungen. Eventuell sorgen diese für bessere Ergebnisse, weil gute Feauture besonders hohe Gewichte zugeteilt bekommen. Durch die simple Implementierung spielt die teilweise komplexere Mathematik hinter den Klassifikatoren keine größere Rolle mehr. Wichtig ist, dass die die Funktionsweise verstanden wird.
 
+### Weitere Informationen
 
-
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Diese Webseite ist Teil der Masterarbeit: **Grundprimitive der Kategorisierung von Textdaten** - _Methodenvergleich am Beispiel von ZDF-Daten_. Eingereicht am Fachbereich 07 Geschichts- und Kulturwissenschaften der Johannes Gutenberg-Universität Mainz im Dezember 2020 von Timo Schumacher. 
+Erstprüfer: Dr. Marco Büchler
+Zweiprüfer: Prof. Dr. Gerhard Lauer
