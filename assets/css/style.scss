@@ -6,6 +6,11 @@ p {
     text-align: justify;
 }
 
-h2{
-    text-align: justify;
-}
+#header_wrap {
+    background: #666666;
+    background: -moz-linear-gradient(top, #666666, #666666);
+    background: -webkit-linear-gradient(top, #666666, #666666);
+    background: -ms-linear-gradient(top, #666666, #666666);
+    background: -o-linear-gradient(top, #666666, #666666);
+    background: linear-gradient(to top, #666666, #666666);
+  }
