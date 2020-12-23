@@ -1,0 +1,8 @@
+﻿;Precision;;;Recall;;;F1;;;;
+Klassifikator;NB;LOG;SVM;NB;LOG;SVM;NB;LOG;SVM;;
+Vektorisierung;TF;TFIDF;TF;TF;TFIDF;TF;TF;TFIDF;TF;;
+Micro;;;;;;;0,67;0,78;0,73;;
+Macro;0,63;0,81;0,74;0,45;0,57;0,62;0,43;0,62;0,66;;
+Weighted;0,65;0,79;0,73;0,67;0,78;0,73;0,63;0,76;0,72;;
+;;;;;;;;;;;
+;;;;;;;;;;;
