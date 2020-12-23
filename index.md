@@ -30,7 +30,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Klassifikationspipeline
 
-![Diagramm](Diagram.png "Diagram").
+![Diagramm](Diagram.svg "Diagram").
 
 ### Support or Contact
 
