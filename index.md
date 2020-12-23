@@ -38,4 +38,4 @@ Erstprüfer: Dr. Marco Büchler
 
 Zweiprüfer: Prof. Dr. Gerhard Lauer
 
-[Poster zur Masterarbeit](poster.pdf "Poster")
+[Poster zur Masterarbeit](Poster.pdf "Poster")
