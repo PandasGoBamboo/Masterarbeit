@@ -16,15 +16,16 @@ Die ZDF-Mediathek ist in mehrere größerer Rubriken mit vielen Unterkategorien,
 
 ### Ergebnisse 
 
-|FIELD1        |Precision|FIELD3|FIELD4|Recall|FIELD6|FIELD7|F1  |FIELD9|FIELD10|FIELD11|FIELD12|
-|--------------|---------|------|------|------|------|------|----|------|-------|-------|-------|
-|Klassifikator |NB       |LOG   |SVM   |NB    |LOG   |SVM   |NB  |LOG   |SVM    |       |       |
-|Vektorisierung|TF       |TFIDF |TF    |TF    |TFIDF |TF    |TF  |TFIDF |TF     |       |       |
-|Micro         |         |      |      |      |      |      |0,67|0,78  |0,73   |       |       |
-|Macro         |0,63     |0,81  |0,74  |0,45  |0,57  |0,62  |0,43|0,62  |0,66   |       |       |
-|Weighted      |0,65     |0,79  |0,73  |0,67  |0,78  |0,73  |0,63|0,76  |0,72   |       |       |
-|              |         |      |      |      |      |      |    |      |       |       |       |
-|              |         |      |      |      |      |      |    |      |       |       |       |
+|              |Precision          |Recall            |F1               |
+|--------------|-------------------|------------------|-----------------|
+|Klassifikator |NB    LOG    SVM   |NB    LOG   SVM   |NB  LOG   SVM    |    
+|Vektorisierung|TF    TFIDF  TF    |TF    TFIDF TF    |TF  TFIDF TF     |    
+|Micro         |                   |                  |0,67 0,78  0,73  |    
+|Macro         |0,63   0,81  0,74  |0,45  0,57  0,62  |0,43 0,62  0,66  |    
+|Weighted      |0,65   0,79  0,73  |0,67  0,78  0,73  |0,63 0,76  0,72  |      
+|              |                   |                  |                 |       
+|              |                   |                  |                 |       
+
 
 
 Die Ergebnisse legen nahe, dass beim Klassifkationsprozess vor allem die zugrundeligenden Daten den größten Unterschied ausmachen. Je nach Klasse unterscheidet sich die Leistung der Klassifikatoren enorm. Auf der technischen Seite scheint die Wahl des Klassifikators den größten Ausschlag zu geben. Für die hier genutzten Daten ist wichtig, auf welche Klassen mehr Wert gelegt werden soll. Außerdem ist das Maß und die Gewichtungsmethode bei der Wahl des Klassifikators entscheidend. Infrequentere Klassen werden am besten von einer Support Vektor Maschine kategorisiert. Darauf deuten die Ergebnisse des Recalls und des F1-Maßes hin. Diese sind im macro-gemittelten Wert für diesen Klassifikator am höchsten. Die Logistische Regression überzeugt dagegen vor allem bei Klassen mit vielen Trainingsdaten. Im micro-gemittelten und im nach Trainingsdaten gewichtetetn Wert erzielt sie die besten Ergebnisse.
