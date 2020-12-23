@@ -30,7 +30,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Klassifikationspipeline
 
-![Diagramm](https://github.com/PandasGoBamboo/Masterarbeit/blob/gh-pages/Untitled%20Diagram.png).
+![Diagramm](Diagram.png "Diagram").
 
 ### Support or Contact
 
