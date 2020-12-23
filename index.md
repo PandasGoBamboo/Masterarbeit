@@ -1,6 +1,4 @@
-###
-
-Diese Webseite ist Teil der Masterarbeit: _Grundprimitive der Kategorisierung von Textdaten_ - _Methodenvergleich am Beispiel von ZDF-Daten_. Eingereicht am Fachbereich 07 Geschichts- und Kulturwissenschaften der Johannes Gutenberg-Universität Mainz im Dezember 2020. 
+Diese Webseite ist Teil der Masterarbeit: **Grundprimitive der Kategorisierung von Textdaten** - _Methodenvergleich am Beispiel von ZDF-Daten_. Eingereicht am Fachbereich 07 Geschichts- und Kulturwissenschaften der Johannes Gutenberg-Universität Mainz im Dezember 2020. 
 
 ## Abstract
 
